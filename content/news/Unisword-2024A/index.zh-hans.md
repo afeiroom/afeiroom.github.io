@@ -19,7 +19,7 @@ categories:
 tags:
   - 国际新闻
 images:
-  - https://s2.loli.net/2024/06/08/9Rry2lOvJzgQMm1.png
+  - https://s2.loli.net/2024/06/08/wMYluVQ8TvoKkFd.png
 # menu:
 #   main:
 #     weight: 100
