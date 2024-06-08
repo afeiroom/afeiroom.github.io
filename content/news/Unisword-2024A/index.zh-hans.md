@@ -13,7 +13,7 @@ nav_icon:
   name: newspaper
   color: green
 series:
-  - 转帖
+  - 国际新闻
 categories:
   - 新闻
 tags:
