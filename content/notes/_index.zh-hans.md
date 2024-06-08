@@ -5,7 +5,7 @@ description: 分享个人学习的知识内容。
 menu:
   main:
     identifier: notes
-    weight: 2
+    weight: 3
     params:
       icon:
         vendor: bs

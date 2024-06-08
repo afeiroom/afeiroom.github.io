@@ -1,10 +1,10 @@
 ---
-title: 新闻
+title: International News
 type: docs
-description: 随手记录我所关注的重大新闻。
+description: International events and top news.
 menu:
   main:
-    weight: 2
+    weight: 1
     params:
       icon:
         vendor: bs
