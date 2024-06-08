@@ -4,7 +4,7 @@ type: docs
 description: 从头开始，学习使用 Mkdocs 搭建静态网站。
 menu:
   main:
-    parent: 笔记
+    parent: notes
     weight: 301
     params:
       icon:

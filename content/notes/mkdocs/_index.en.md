@@ -4,7 +4,7 @@ type: docs
 description: From scratch, learn to build a static website with Mkdocs.
 menu:
   main:
-    parent: notes
+    parent: Notes
     weight: 301
     params:
       icon:
