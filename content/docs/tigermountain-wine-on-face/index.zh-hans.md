@@ -5,8 +5,8 @@ description: "必须对攻，独孤九剑，以攻为守，攻敌之不得不防
 date: 2024-05-10T15:00:00+08:00
 draft: false
 noindex: false
-featured: true
-pinned: true
+featured: false
+pinned: false
 nav_weight: 1
 nav_icon:
   vendor: bootstrap
