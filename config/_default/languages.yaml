@@ -5,4 +5,7 @@ en:
 zh-hans:
   languageName: 简体中文
   title: Afei Room
+  languageCode: zh-CN
+  params:
+    reading_speed: 20
   weight: 1
