@@ -1,6 +1,6 @@
 ---
 title: markdown 删除线
-updescription: "您可以通过在单词中心放置一条水平线来删除单词。"
+description: "您可以通过在单词中心放置一条水平线来删除单词。"
 # linkTitle:
 date: 2024-04-12T08:00:00+08:00
 draft: false

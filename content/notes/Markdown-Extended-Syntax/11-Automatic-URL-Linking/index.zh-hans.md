@@ -1,6 +1,6 @@
 ---
 title: Markdown 自动网址链接
-uupdescription: "许多Markdown处理器会自动将URL转换为链接。"
+description: "许多Markdown处理器会自动将URL转换为链接。"
 # linkTitle:
 date: 2024-04-12T11:00:00+08:00
 draft: false

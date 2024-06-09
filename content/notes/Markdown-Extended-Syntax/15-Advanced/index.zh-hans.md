@@ -1,6 +1,6 @@
 ---
 title: Markdown 高级技巧
-uupdescription: "支持的 HTML 元素，渲染数学表达式。"
+description: "支持的 HTML 元素，渲染数学表达式。"
 # linkTitle:
 date: 2024-04-13T15:00:00+08:00
 draft: false

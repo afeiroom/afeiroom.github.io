@@ -1,6 +1,6 @@
 ---
 title: Markdown 使用 Emoji 表情
-uupdescription: "有两种方法可以将表情符号添加到Markdown文件中。"
+description: "有两种方法可以将表情符号添加到Markdown文件中。"
 # linkTitle:
 date: 2024-04-12T10:00:00+08:00
 draft: false

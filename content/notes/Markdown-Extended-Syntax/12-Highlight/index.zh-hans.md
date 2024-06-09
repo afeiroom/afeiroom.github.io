@@ -1,6 +1,6 @@
 ---
 title: Markdown 高亮
-uupdescription: "某些 Markdown 处理器允许您突出显示文本。"
+description: "某些 Markdown 处理器允许您突出显示文本。"
 # linkTitle:
 date: 2024-04-12T12:00:00+08:00
 draft: false

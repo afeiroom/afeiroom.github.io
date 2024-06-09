@@ -1,6 +1,6 @@
 ---
 title: Markdown 下标
-uupdescription: "某些 Markdown 处理器允许您使用下标。"
+description: "某些 Markdown 处理器允许您使用下标。"
 # linkTitle:
 date: 2024-04-12T13:00:00+08:00
 draft: false
@@ -34,7 +34,7 @@ authors:
 
 # Markdown 下标
 这并不常见，但某些 Markdown 处理器允许您使用下标将一个或多个字符定位在略低于正常类型行的位置。要创建下标，请在字符前后使用一个波浪号 （`~`）。[^1]
-[^1]: Mkdocs网站不支持此功能，渲染示例通过HTML标记实现。
+[^1]: 之前用 Mkdocs 搭建的网站不支持此功能，后期搭建Hugo网站可以实现。
 ```
 
 	H~2~O
@@ -42,10 +42,10 @@ authors:
 ```
 渲染的输出如下所示：
 
-H<sub>2</sub>O
+H~2~O
 
  提示：在使用 Markdown 应用程序之前，请务必对其进行测试。某些 Markdown 应用程序在单词前后使用一个波浪号符号，而不是用于下标，而是用于删除线。
-或者，如果 Markdown 应用程序支持 HTML，则可以使用 HTML 标记。sub
+或者，如果 Markdown 应用程序支持 HTML，则可以使用 HTML 标记 sub 。
 ```
 
 	H<sub>2</sub>O

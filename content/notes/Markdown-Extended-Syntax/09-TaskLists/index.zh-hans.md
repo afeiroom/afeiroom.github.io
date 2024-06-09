@@ -1,6 +1,6 @@
 ---
 title: Markdown 任务列表语法
-uupdescription: "任务列表使您可以创建带有复选框的项目列表。"
+description: "任务列表使您可以创建带有复选框的项目列表。"
 # linkTitle:
 date: 2024-04-12T09:00:00+08:00
 draft: false
