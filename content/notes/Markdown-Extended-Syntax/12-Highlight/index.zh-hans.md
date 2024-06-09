@@ -39,10 +39,10 @@ authors:
 	I need to highlight these ==very important words==.
 	
 ```
-渲染的输出如下所示：
+渲染的输出如下所示[^1]：
+[^1]: 搭建的 Hugo 网站不支持此功能，以下效果是用 HTML 标记来实现的。
 
-I need to highlight these ==very important words==.
-
+I need to highlight these <mark>very important words</mark>.
 
 或者，如果 Markdown 应用程序支持 HTML，则可以使用 HTML 标记。mark
 ```
