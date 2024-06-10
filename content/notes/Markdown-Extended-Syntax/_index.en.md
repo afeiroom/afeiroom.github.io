@@ -6,7 +6,7 @@ nav_weight: 3
 nav_icon:
   vendor: bootstrap
   name: pencil-square
-  color: HotPink
+  color: Blue
 menu:
   main:
     parent: Notes

@@ -1,16 +1,16 @@
 ---
-title: Markdown 基本语法
+title: Linux
 type: docs
-description: 让我们从 Markdown 标题语法开始学习吧。
-nav_weight: 2
+description: 在 Linux 系统下操作知识笔记。
+nav_weight: 4
 nav_icon:
   vendor: bootstrap
-  name: pencil-square
-  color: RoyalBlue
+  name: ubuntu
+  color: OrangeRed
 menu:
   main:
     parent: notes
-    weight: 2
+    weight: 4
     params:
       icon:
         vendor: bootstrap

@@ -1,16 +1,16 @@
 ---
-title: Markdown 基本语法
+title: Hugo
 type: docs
 description: 让我们从 Markdown 标题语法开始学习吧。
-nav_weight: 2
+nav_weight: 5
 nav_icon:
   vendor: bootstrap
-  name: pencil-square
-  color: RoyalBlue
+  name: columns-gap
+  color: BlueViolet
 menu:
   main:
     parent: notes
-    weight: 2
+    weight: 5
     params:
       icon:
         vendor: bootstrap

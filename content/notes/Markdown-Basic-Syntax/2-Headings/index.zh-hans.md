@@ -11,7 +11,7 @@ nav_weight: 2
 nav_icon:
   vendor: bootstrap
   name: pencil-square
-  color: Blue
+  color: RoyalBlue
 series:
   - Markdown 基本语法
 categories:

@@ -1,16 +1,16 @@
 ---
-title: Markdown 基本语法
+title: AI
 type: docs
 description: 让我们从 Markdown 标题语法开始学习吧。
-nav_weight: 2
+nav_weight: 6
 nav_icon:
   vendor: bootstrap
-  name: pencil-square
-  color: RoyalBlue
+  name: box
+  color: MediumBlue
 menu:
   main:
     parent: notes
-    weight: 2
+    weight: 6
     params:
       icon:
         vendor: bootstrap
