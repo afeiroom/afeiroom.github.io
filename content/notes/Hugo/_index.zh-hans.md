@@ -1,7 +1,7 @@
 ---
-title: Hugo
+title: Hugo 小白建站
 type: docs
-description: 让我们从 Markdown 标题语法开始学习吧。
+description: 菜鸟用 Hugo 框架主题建站全记录。
 nav_weight: 5
 nav_icon:
   vendor: bootstrap
@@ -14,6 +14,6 @@ menu:
     params:
       icon:
         vendor: bootstrap
-        name: pencil-square
-        color: Blue
+        name: columns-gap
+        color: BlueViolet
 ---

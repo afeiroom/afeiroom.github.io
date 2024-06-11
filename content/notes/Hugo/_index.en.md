@@ -1,19 +1,19 @@
 ---
-title: Markdown Basic Syntax
+title: Builds a station with Hugo
 type: docs
-description: Nearly all Markdown applications support the basic syntax outlined in the original Markdown design document.
-nav_weight: 2
+description: Rookie builds a station with Hugo.
+nav_weight: 5
 nav_icon:
   vendor: bootstrap
-  name: pencil-square
-  color: RoyalBlue
+  name: columns-gap
+  color: BlueViolet
 menu:
   main:
     parent: Notes
-    weight: 2
+    weight: 5
     params:
       icon:
         vendor: bootstrap
-        name: pencil-square
-        color: Blue
+        name: columns-gap
+        color: BlueViolet
 ---

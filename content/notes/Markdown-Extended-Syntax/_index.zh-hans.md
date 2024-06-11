@@ -5,7 +5,7 @@ description: 基本语法主要是为了应付大多数情况下的日常所需�
 nav_weight: 3
 nav_icon:
   vendor: bootstrap
-  name: pencil-square
+  name: markdown
   color: Blue
 menu:
   main:
@@ -14,6 +14,6 @@ menu:
     params:
       icon:
         vendor: bootstrap
-        name: pencil-square
-        color: HotPink
+        name: markdown
+        color: Blue
 ---

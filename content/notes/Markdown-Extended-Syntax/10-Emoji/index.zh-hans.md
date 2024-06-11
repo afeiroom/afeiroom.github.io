@@ -10,7 +10,7 @@ pinned: false
 nav_weight: 10
 nav_icon:
   vendor: bootstrap
-  name: pencil-square
+  name: markdown
   color: Blue
 series:
   - Markdown 扩展语法

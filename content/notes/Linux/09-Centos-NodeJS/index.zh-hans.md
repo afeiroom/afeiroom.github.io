@@ -215,8 +215,8 @@ make: *** [Makefile:12: install] Error 2
 $ vim scripts/test-installation.pl
 ```
 在文件的128行新增$name ne “nss_test2”，如下图所示：
-![c7a2c9548c478b243242e40c1cda27e2.png](../_resources/c7a2c9548c478b243242e40c1cda27e2.png)
 
+![test-installation.png](https://s2.loli.net/2024/06/11/poFP5WuDl16vdrk.png)
 
 重新执行glibc安装命令，可顺利安装，然后校验
 ```

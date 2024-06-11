@@ -5,8 +5,8 @@ description: Nearly all Markdown applications support the basic syntax outlined 
 nav_weight: 2
 nav_icon:
   vendor: bootstrap
-  name: pencil-square
-  color: RoyalBlue
+  name: markdown
+  color: HotPink
 menu:
   main:
     parent: Notes
@@ -14,6 +14,6 @@ menu:
     params:
       icon:
         vendor: bootstrap
-        name: pencil-square
-        color: Blue
+        name: markdown
+        color: HotPink
 ---

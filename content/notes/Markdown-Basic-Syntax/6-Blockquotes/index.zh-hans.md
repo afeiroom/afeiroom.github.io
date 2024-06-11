@@ -10,8 +10,8 @@ pinned: false
 nav_weight: 6
 nav_icon:
   vendor: bootstrap
-  name: pencil-square
-  color: RoyalBlue
+  name: markdown
+  color: HotPink
 series:
   - Markdown 基本语法
 categories:

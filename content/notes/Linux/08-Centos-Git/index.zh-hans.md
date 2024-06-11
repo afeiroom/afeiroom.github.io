@@ -36,7 +36,6 @@ authors:
 
 # CentOS7安装Git
 
-  　　————2024.4.27
 	
 yum命令安装：
 

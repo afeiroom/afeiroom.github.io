@@ -5,7 +5,7 @@ description: Advanced features that build on the basic Markdown syntax.
 nav_weight: 3
 nav_icon:
   vendor: bootstrap
-  name: pencil-square
+  name: markdown
   color: Blue
 menu:
   main:
@@ -14,6 +14,6 @@ menu:
     params:
       icon:
         vendor: bootstrap
-        name: pencil-square
-        color: HotPink
+        name: markdown
+        color: Blue
 ---

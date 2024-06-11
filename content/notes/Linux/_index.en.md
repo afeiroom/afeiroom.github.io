@@ -14,6 +14,6 @@ menu:
     params:
       icon:
         vendor: bootstrap
-        name: pencil-square
-        color: Blue
+        name: ubuntu
+        color: OrangeRed
 ---
