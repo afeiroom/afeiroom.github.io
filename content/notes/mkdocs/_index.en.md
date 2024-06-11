@@ -10,7 +10,7 @@ nav_icon:
 menu:
   main:
     parent: Notes
-    weight: 301
+    weight: 1
     params:
       icon:
         vendor: bs

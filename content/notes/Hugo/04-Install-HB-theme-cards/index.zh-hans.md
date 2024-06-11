@@ -34,7 +34,7 @@ authors:
   - Afei
 ---
 
-# 在 Linux 上安装HB（Hugo Bootstrap）
+## 在 Linux 上安装HB（Hugo Bootstrap）
 
 	
 HB（Hugo Bootstrap）是一个模块化的框架，其构建于 Hugo 和 Bootstrap 之上。 HB 不是一个主题，而是用来建立一个主题的。
@@ -43,7 +43,7 @@ HB（Hugo Bootstrap）是一个模块化的框架，其构建于 Hugo 和 Bootst
 > 2. 此贴中，安装 HB Start Theme 主题没成功；
 > 3. 最终，HB theme-cards 主题从头开始安装，**终于成功了**。
 
-## 先决条件
+### 先决条件
 
 HB 是一个功能丰富的框架，但同时也具有着一定的复杂性。本文将详细列出 HB 的环境要求，以便你可以正常地开发和使用 HB 模块和主题。
 
@@ -431,6 +431,7 @@ Error: error building site: logged 1 error(s)
 ====不知道如何解决，暂时鸽了====
 
 
+
 Hugo 服务器在第一次运行时需要很长的时间以下载模块和处理大量图片，你需要删除无用的图片和提交 resources/images 文件夹以提高构建性能。
 
 
@@ -478,6 +479,7 @@ npm run prod
 SH
 下一步
 
+--------
 
 ## 安装 HB Start Theme 主题
 
@@ -491,10 +493,10 @@ cp -r theme-start/exampleSite ./start-page
 ```
 
 ```
-### cp [选项] 源文件 目标文件
+###cp [选项] 源文件 目标文件
 
-### 选项说明：
-###   -r 或 --recursive：用于复制目录及其所有的子目录和文件，如果要复制目录，需要使用该选项。
+###选项说明：
+###-r 或 --recursive：用于复制目录及其所有的子目录和文件，如果要复制目录，需要使用该选项。
 ```
 ### 更改工作目录
 ```
@@ -540,16 +542,18 @@ sed -i '1s/.*/module afeiroom.gitee.io/' go.mod
 
 ====不知道如何解决，也鸽了====
 
-# HB theme-cards 主题从头开始安装
+--------
+
+## HB theme-cards 主题从头开始安装
 
   　　————2024.4.29
 
 从头开始使用 HB 卡主题构建快速、响应式和模块化静态网站。
-## 参考链接
+### 参考链接
 
 * [HB 从头开始安装](https://theme-cards.hbstack.dev/zh-hans/docs/install-from-scratch/)
 
-## 环境要求
+### 环境要求
 
 * 有关安装说明，请参阅相关文档：
 	* [Git](https://git-scm.com/)
@@ -559,7 +563,7 @@ sed -i '1s/.*/module afeiroom.gitee.io/' go.mod
 
 了解更多关于[先决条件](https://zh-hans.hbstack.dev/docs/getting-started/prerequisites/)的内容。
 
-## 克隆仓库
+### 克隆仓库
 ```
 git clone --depth 1 https://github.com/hbstack/theme-cards
 ```
@@ -578,7 +582,7 @@ remote: Total 193 (delta 12), reused 157 (delta 8), pack-reused 0
 处理 delta 中: 100% (12/12), done.
 ```
 
-## 复制示例站点
+### 复制示例站点
 ```
 cp -r theme-cards/exampleSite mysite
 ```
@@ -588,7 +592,7 @@ cp -r theme-cards/exampleSite mysite
 [root@localhost blog]# cp -r theme-cards/exampleSite mysite
 [root@localhost blog]# cd mysite
 ```
-## 更改工作目录
+### 更改工作目录
 ```
 cd mysite
 ```
@@ -597,9 +601,9 @@ cd mysite
 ```
 [root@localhost blog]# cd mysite
 ```
-## 调整 `go.mod`
+### 调整 `go.mod`
 > 本文利用 sed 命令进行文件编辑，请随意使用你喜欢的编辑器打开和修改 go.mod。
-### 替换模块路径
+#### 替换模块路径
 模块路径是站点的标识，其一般为仓库 URL，这里以 `github.com/user/repo` 为例，则需要将 `module github.com/hbstack/theme-cards/exampleSite` 替换为 `module github.com/user/repo`。
 ```
 sed -i '1s/.*/module github.com\/user\/repo/' go.mod
@@ -610,7 +614,7 @@ sed -i '1s/.*/module github.com\/user\/repo/' go.mod
 [root@localhost mysite]# sed -i '1s/.*/module afeiroom.gitee.io/' go.mod
 ```
 
-## 删除 replace 指令
+### 删除 replace 指令
 为了成功地构建站点，需要删除该内部使用的 `replace` 指令行：`replace github.com/hbstack/theme-cards => ../`。
 ```
 sed -i '/^replace/d' go.mod
@@ -620,7 +624,7 @@ sed -i '/^replace/d' go.mod
 ```
 [root@localhost mysite]# sed -i '/^replace/d' go.mod
 ```
-## 安装依赖
+### 安装依赖
 ```
 npm ci
 ```
@@ -637,10 +641,10 @@ added 224 packages in 12s
 46 packages are looking for funding
   run `npm fund` for details
 ```
-## Hugo 模块代理（可选）
+### Hugo 模块代理（可选）
 当你的所在地区（比如国内）无法访问默认的代理时，则需要设置Hugo 模块代理。
 
-### Go 和 Hugo 代理服务器
+#### Go 和 Hugo 代理服务器
 Go 官方的模块代理服务器被 GFW 墙了，没有 VPN 的情况下，于国内是无法正常使用的。不过可以通过设置代理服务器解决，本文将列出一些可用的 Go 代理服务器。而这也同样适用于 Hugo 模块。
 
 * 代理服务器
@@ -697,7 +701,7 @@ hugo.json
 ```
 
 
-## 本地预览
+### 本地预览
 ```
 npm run dev
 ```
