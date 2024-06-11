@@ -35,8 +35,9 @@ authors:
 
 # 常用命令小结
 
-	
-![e2d8487398f57932ee831dddb6b86fcb.png](../_resources/e2d8487398f57932ee831dddb6b86fcb-1.png)
+
+![Docker-commands-Summary.png](https://s2.loli.net/2024/06/11/6ism2zINfv4ydjA.png)
+
 
 ```
 attach		# 当前shell下attach 连接指定运行镜像

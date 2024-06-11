@@ -1,5 +1,5 @@
 ---
-title: Linux
+title: Linux study notes
 type: docs
 description: Operate the knowledge notes on Linux.
 nav_weight: 4

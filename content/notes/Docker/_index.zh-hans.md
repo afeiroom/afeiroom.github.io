@@ -1,7 +1,7 @@
 ---
-title: Docker
+title: Docker 日常学习笔记
 type: docs
-description: 让我们从 Markdown 标题语法开始学习吧。
+description: 从零开始学习 Docker。
 nav_weight: 7
 nav_icon:
   vendor: bootstrap

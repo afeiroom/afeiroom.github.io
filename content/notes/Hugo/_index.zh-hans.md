@@ -1,5 +1,5 @@
 ---
-title: Hugo 小白建站
+title: Hugo 菜鸟小白建站
 type: docs
 description: 菜鸟用 Hugo 框架主题建站全记录。
 nav_weight: 5

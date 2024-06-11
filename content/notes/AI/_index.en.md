@@ -1,7 +1,7 @@
 ---
-title: AI
+title: AI study notes
 type: docs
-description: Nearly all Markdown applications support the basic syntax outlined in the original Markdown design document.
+description: Learn AI from scratch.
 nav_weight: 6
 nav_icon:
   vendor: bootstrap

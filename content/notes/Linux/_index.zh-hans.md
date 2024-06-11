@@ -1,5 +1,5 @@
 ---
-title: Linux
+title: Linux 操作学习笔记
 type: docs
 description: 在 Linux 系统下操作知识笔记。
 nav_weight: 4

@@ -1,7 +1,7 @@
 ---
-title: AI
+title: AI 学习笔记
 type: docs
-description: 让我们从 Markdown 标题语法开始学习吧。
+description: 从零开始学习 AI。
 nav_weight: 6
 nav_icon:
   vendor: bootstrap
